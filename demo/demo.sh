@@ -1,4 +1,4 @@
-docker run --gpus all --rm -it nvcr.io/nvidia/pytorch:24.08-py3 /bin/bash -c $'
+docker run --gpus all --rm nvcr.io/nvidia/pytorch:24.08-py3 /bin/bash -c $'
 pip install accelerate==0.33.0 transformers==4.44.2
 python -c \'
 import torch

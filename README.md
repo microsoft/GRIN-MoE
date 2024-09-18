@@ -36,7 +36,7 @@ The simpliest way to inference with GRIN-MoE is to run the demo as below, which 
 
 ```bash
 # This script is available at `https://github.com/microsoft/GRIN-MoE/blob/main/demo/demo.sh` and requires docker to run.
-curl -s https://raw.githubusercontent.com/microsoft/GRIN-MoE/main/demo/demo.sh | bash -s 
+curl https://raw.githubusercontent.com/microsoft/GRIN-MoE/main/demo/demo.sh | bash -s 
 ```
 
 ### Interactive Demo
@@ -44,7 +44,7 @@ curl -s https://raw.githubusercontent.com/microsoft/GRIN-MoE/main/demo/demo.sh |
 Run the following command to play with the model with more questions and customized inputs, which would launch a jupyter notebook at `localhost:8887`. 
 ```bash
 # This script requires docker to run.
-docker run --gpus all -p 8887:8887 --rm -it nvcr.io/nvidia/pytorch:24.08-py3 /bin/bash -c 'git clone https://github.com/microsoft/GRIN-MoE.git && jupyter notebook --port 8887 --notebook-dir GRIN-MoE/demo'
+docker run --gpus all -p 8887:8887 --rm nvcr.io/nvidia/pytorch:24.08-py3 /bin/bash -c 'git clone https://github.com/microsoft/GRIN-MoE.git && jupyter notebook --port 8887 --notebook-dir GRIN-MoE/demo'
 ```
 
 ## Benchmarks
