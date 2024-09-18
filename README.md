@@ -1,16 +1,14 @@
 <h1 align="center">	&#128513; MoE</h1>
 <h4 align="center">GRIN: <em>GR</em>adient-<em>IN</em>formed MoE</h4>
 <p align="center">
-<a href="https://huggingface.co/microsoft/GRIN-MoE">Hugging Face</a>&nbsp | &nbsp <a href="https://arxiv.org/abs/2304.08612"> Tech Report</a>&nbsp | &nbsp  <a href="https://github.com/microsoft/GRIN-MoE/blob/main/LICENSE">License</a>&nbsp  | &nbsp <a href="https://github.com/microsoft/GRIN-MoE">Github</a> &nbsp | &nbsp <a href="https://github.com/microsoft/GRIN-MoE/tree/main#usage">Get Started</a>&nbsp
+<a href="https://huggingface.co/microsoft/GRIN-MoE">Hugging Face</a>&nbsp | &nbsp <a href="https://github.com/microsoft/GRIN-MoE/blob/main/GRIN_MoE.pdf"> Tech Report</a>&nbsp | &nbsp  <a href="https://github.com/microsoft/GRIN-MoE/blob/main/LICENSE">License</a>&nbsp  | &nbsp <a href="https://github.com/microsoft/GRIN-MoE">Github</a> &nbsp | &nbsp <a href="https://github.com/microsoft/GRIN-MoE/tree/main#usage">Get Started</a>&nbsp
 <br>
 
-GRIN MoE is a top2 16x3.8B MoE model.
-It achieves exceptionally good performance across a diverse set of tasks, particularly in coding and mathematics tasks. 
-Comparing to conventional MoE training, GRIN MoE differs in mostly two ways:
+- With **only 6.6B** activate parameters, GRIN MoE achieves **exceptionally good** performance across a diverse set of tasks, particularly in coding and mathematics tasks.
 
-- GRIN uses SparseMixer-v2 to estimate the gradient related to expert routing, while the conventional MoE training treats expert gating as a proxy for the gradient estimation. 
+- GRIN uses **SparseMixer-v2** to estimate the gradient related to expert routing, while the conventional MoE training treats expert gating as a proxy for the gradient estimation. 
 
-- GRIN scales MoE training with neither expert parallelism nor token dropping, while the conventional MoE training employs expert parallelism and deploys token dropping.
+- GRIN scales MoE training with **neither expert parallelism nor token dropping**, while the conventional MoE training employs expert parallelism and deploys token dropping.
 
 ## Intended Uses
 
