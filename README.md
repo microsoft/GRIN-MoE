@@ -1,7 +1,7 @@
 <h1 align="center">	&#128513; MoE</h1>
 <h4 align="center">GRIN: <em>GR</em>adient-<em>IN</em>formed MoE</h4>
 <p align="center">
-<a href="https://huggingface.co/microsoft/GRIN-MoE">Hugging Face</a>&nbsp | &nbsp <a href="https://arxiv.org/abs/2304.08612"> Tech Report</a>&nbsp | &nbsp  <a href=" https://github.com/microsoft/GRIN-MoE/blob/main/LICENSE">License</a>&nbsp  | &nbsp <a href="https://github.com/microsoft/GRIN-MoE">Github</a> &nbsp | &nbsp <a href="https://github.com/microsoft/GRIN-MoE/tree/main#usage">Get Started</a>&nbsp
+<a href="https://huggingface.co/microsoft/GRIN-MoE">Hugging Face</a>&nbsp | &nbsp <a href="https://arxiv.org/abs/2304.08612"> Tech Report</a>&nbsp | &nbsp  <a href="https://github.com/microsoft/GRIN-MoE/blob/main/LICENSE">License</a>&nbsp  | &nbsp <a href="https://github.com/microsoft/GRIN-MoE">Github</a> &nbsp | &nbsp <a href="https://github.com/microsoft/GRIN-MoE/tree/main#usage">Get Started</a>&nbsp
 <br>
 
 GRIN MoE is a top2 16x3.8B MoE model.
@@ -41,13 +41,14 @@ The simpliest way to inference with GRIN-MoE is to run the demo as below, which 
 curl -s https://raw.githubusercontent.com/microsoft/GRIN-MoE/main/demo/demo.sh | bash -s 
 ```
 
-### Interactive demo
+### Interactive Demo
 
 Run the following command to play with the model with more questions and customized inputs, which would launch a jupyter notebook at `localhost:8887`. 
 ```bash
 # This script requires docker to run.
 docker run --gpus all -p 8887:8887 --rm -it nvcr.io/nvidia/pytorch:24.08-py3 /bin/bash -c 'git clone https://github.com/microsoft/GRIN-MoE.git && jupyter notebook --port 8887 --notebook-dir GRIN-MoE/demo'
 ```
+
 ## Benchmarks
 
 To understand the capabilities, we compare GRIN MoE with a set of models over a variety of benchmarks using our internal benchmark platform. At the high-level overview of the model quality on representative benchmarks:
