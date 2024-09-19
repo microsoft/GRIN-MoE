@@ -1,7 +1,7 @@
 <h1 align="center">	&#128513; MoE</h1>
 <h4 align="center">GRIN: <em>GR</em>adient-<em>IN</em>formed MoE</h4>
 <p align="center">
-<a href="https://huggingface.co/microsoft/GRIN-MoE">Hugging Face</a>&nbsp | &nbsp <a href="https://github.com/microsoft/GRIN-MoE/blob/main/GRIN_MoE.pdf"> Tech Report</a>&nbsp | &nbsp  <a href="https://github.com/microsoft/GRIN-MoE/blob/main/LICENSE">License</a>&nbsp  | &nbsp <a href="https://github.com/microsoft/GRIN-MoE">Github</a> &nbsp | &nbsp <a href="https://github.com/microsoft/GRIN-MoE/tree/main#usage">Get Started</a>&nbsp
+<a href="https://huggingface.co/microsoft/GRIN-MoE">Hugging Face</a>&nbsp | &nbsp <a href="https://arxiv.org/pdf/2409.12136">Tech Report</a>&nbsp | &nbsp  <a href="https://github.com/microsoft/GRIN-MoE/blob/main/LICENSE">License</a>&nbsp  | &nbsp <a href="https://github.com/microsoft/GRIN-MoE">Github</a> &nbsp | &nbsp <a href="https://github.com/microsoft/GRIN-MoE/tree/main#usage">Get Started</a>&nbsp
 <br>
 
 - With **only 6.6B** activate parameters, GRIN MoE achieves **exceptionally good** performance across a diverse set of tasks, particularly in coding and mathematics tasks.
