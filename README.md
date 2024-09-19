@@ -6,9 +6,9 @@
 
 - With **only 6.6B** activate parameters, GRIN MoE achieves **exceptionally good** performance across a diverse set of tasks, particularly in coding and mathematics tasks.
 
-- GRIN uses **SparseMixer-v2** to estimate the gradient related to expert routing, while the conventional MoE training treats expert gating as a proxy for the gradient estimation. 
+- GRIN uses [**SparseMixer-v2**](https://arxiv.org/html/2409.12136v1#Pt1) to estimate the gradient related to expert routing, while the conventional MoE training treats expert gating as a proxy for the gradient estimation. 
 
-- GRIN scales MoE training with **neither expert parallelism nor token dropping**, while the conventional MoE training employs expert parallelism and deploys token dropping.
+- GRIN scales MoE training with [**neither expert parallelism nor token dropping**](https://arxiv.org/pdf/2409.12136#page=5.42), while the conventional MoE training employs expert parallelism and deploys token dropping.
 
 ## Intended Uses
 
